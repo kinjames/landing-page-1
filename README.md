@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/single-price-grid-component-cuKKFvth2L)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/huddle-page-with-curved-sections-d-_1TfdIwY)
 - Live Site URL: [Github](https://kinjames.github.io/landing-page-1/)
 
 ## My process
