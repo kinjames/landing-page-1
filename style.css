@@ -214,7 +214,7 @@ body {
     bottom: calc(-22vw + 249px);
     background-image: url(images/bg-section-bottom-desktop-2.svg);
     background-position: bottom;
-  }
+}
 
 
 .row {
@@ -365,7 +365,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
-  }
+}
 
 @media only screen and (max-width:600px){
     .footer-nav,.stuffs,.image,.footer-items,.news,.illus,.text1,.container,html,body,main,footer,header,nav {
@@ -431,5 +431,52 @@ footer {
     .header-para {
         width: 100%;
         font-size: 14px;
+    }
+
+    .row1::before,.row2::before,.row2::after,
+    .row1::after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 10rem;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      z-index: -1;
+    }
+
+
+
+    .row1::before {
+        top: calc(-20vw + 6px);
+        background-image: url(images/bg-section-top-mobile-1.svg);
+        background-position: top;
+      }
+      
+      .row1::after {
+        bottom: calc(-22vw + 48px);
+        background-image: url(images/bg-section-bottom-mobile-1.svg);
+        background-position: bottom;
+      }
+      
+      .row2::before {
+        top: calc(-20vw + 3px);
+        background-image: url(images/bg-section-top-mobile-2.svg);
+        background-position: top;
+      }
+      
+      .row2::after {
+        bottom: calc(-22vw + 19px);
+        background-image: url(images/bg-section-bottom-mobile-2.svg);
+        background-position: bottom;
+    }
+
+    footer::before {
+        background-image: url(images/bg-footer-top-mobile.svg);
+        top: -3rem;
+        left: 0;
+        width: 100%;
+        height: 4rem;
     }
 }
